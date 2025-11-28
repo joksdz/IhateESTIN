@@ -147,3 +147,77 @@ example :
 
 ### (insert 7 segment shit)
 bye bye ;) 
+
+
+GOOOOOOOOODDDDD MORNING VITANME!!!!!!!!
+## Sequential shit 
+a sequential circuit is a logical circuit where the output depends on the input and the state of the memory as well 
+so it memorizes the past state this is generally how it looks 
+![[Pasted image 20251122234025.png]]
+(pretty like you bro ;))
+### types 
+there are two types of sequential circuits 
+- synchronous: the output depends on the change in the external entries ***And*** the current state ***And*** the signal from the clock  
+
+- asynchronous : the output is based on the change of the external entries ***OR*** the internal state
+
+The clock : 
+is an electrical signal that oscillate that controls the rhythm of the circuit , the period is called a cycle 
+
+there are 4 types of clocks which depend on the sensitivity of the clock  : 
+- low level sensitive :
+![[Pasted image 20251122235148.png]]
+- rising edge sensitive :
+![[Pasted image 20251122235230.png]]
+- high level sensitive : 
+![[Pasted image 20251122235259.png]]
+- falling edge sensitive : 
+![[Pasted image 20251122235331.png]]
+![[Pasted image 20251123001503.png]]
+the cycle us represented as the delta time between two points at the same (y) from different (x)s 
+T is in seconds 
+![[Pasted image 20251122235502.png]]
+the frequency is the inverse of the period T thus : 
+$f=\frac{1}{T}$ which is represented in hz (hertz(those germans))   
+
+### flip flops (cool name btw)
+
+a flip flop is a circuit that can memories 1 bit of information , which with creating counters(or down counters its 2025 bro )
+and we can have complex memorization like registers or memory cells 
+#### types 
+there are two types based on the sequential circuit used (sync or async) 
+and 4+ types based on entries : 
+- RS(reset/set)
+- JK(j=S/k=R)(just a bit diff)
+- D(direct info)
+- T(the flip flop(bro literally just flip flops all day))
+etc ++(idk thats what she wrote)
+
+==Note:== all the flip flops based on entries are based on RS 
+
+
+### RS flip flops  :
+##### async : 
+they have two inputs : 
+R for rest to 0  
+and S for set to 1  (wow)
+and they return two outputs : Q and $\bar{Q}$ 
+![[Pasted image 20251123001400.png]]
+
+![[Pasted image 20251123001343.png]]
+
+
+
+tarns table : 
+![[Pasted image 20251123003646.png]]
+we can also write it as : 
+
+
+
+![[Pasted image 20251123003709.png]]
+karghnau + resualt 
+![[Pasted image 20251123003744.png]]
+==Note:== the output Q represent the current state of the flip flop and $Q^+$ is the future state
+ ##### sync: 
+this one has 3 inputs  R S and H or CLK 
+![[Pasted image 20251123003100.png]]
