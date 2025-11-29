@@ -6,50 +6,17 @@ logical circuits are made through combining electronic components
 ## circuit logique combinatior (CLC)
 
 is a numerical circuit which the outputs of are only dependent on the inputs 
-![[Pasted image 20251108212103.png]]
-
-### Analysis pf a CLC
- - determine the output equations 
- - try to understand the functionality of the circuit 
-
-
 ![[Pasted image 20251108213222.png]]
-
 ![[Pasted image 20251108213344.png]]
 ![[Pasted image 20251108213430.png]]
-
 ![[Pasted image 20251108213828.png]]
 ![[Pasted image 20251108213931.png]]
-## Semi addition-er
-which allows the arithmetic addition of two numbers A and B of one bit  the output has the sum and that remainder ![[Pasted image 20251108214430.png]]
-the truth table looks like this : 
 ![[Pasted image 20251108214508.png]]
-the boolean expression looks like this : 
-
 ![[Pasted image 20251108214515.png]]
-
 ![[Pasted image 20251108214538.png]]
-### Full addition-er 
-does the addition between two numbers in n bit 
 ![[Pasted image 20251108214825.png]]
 ![[Pasted image 20251108214836.png]]
-
-
-there are two ways of making this either making it from scratch or combining multiple semi-additioners (which is the case for our course)
-
-a full additioner has 3 inputs and two outputs 
-inputs : 
-Ai : is the first number in bit form 
-Bi : is the second number in bit form 
-$r_{i-1}$ : is the rest of the previous semi additioner 
-
-outputs: 
-Si : is the sum 
-Ri : is the reset
 ![[Pasted image 20251108215721.png]]
-
-the truth table of 1 bit : 
-
 
 | Ai  | Bi  | $r_{i-1}$ |     | $r_i$ | Si  |
 | --- | --- | --------- | --- | ----- | --- |

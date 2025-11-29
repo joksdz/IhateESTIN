@@ -1,6 +1,6 @@
 NOTE : start form the coulombs law from the basics for this chapter [[Basics-elect]]
 
-
+[src](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.06%3A_Calculating_Electric_Fields_of_Charge_Distributions)
 ## Electric field of point charges 
 form hte images below we can see that the electric field of a positive charge is pointing outwards  
 ![[Pasted image 20251020213346.png]]
