@@ -57,7 +57,7 @@ consider a system of two point charges q1 q2 separated by a distance in a vacuum
 where Ke is the coulomb constant , nad $\hat{r}=\vec{r}/r$ is a unit vector directed from q1 to q2 :
 ![[Pasted image 20251017115409.png]]
 
-Note: the electrical force is a vector which has both a magnitude and a direction . In IS units,the coulomb constant Ke is given by : $$K{e} = \frac{1}{4\pi\epsilon} =9.9875.10^9 N.m^2/C^2 \$$
+Note: the electrical force is a vector which has both a magnitude and a direction . In IS units,the coulomb constant Ke is given by : $$K{e} = \frac{1}{4\pi\epsilon} =9.9875.10^9 N.m^2/C^2 
 $$
 where : 
 $$\epsilon_0 =  \frac{1}{4\pi(8.99.10^9)} = 8.85.10^{-12} C^2/(m^2.N^2)$$
