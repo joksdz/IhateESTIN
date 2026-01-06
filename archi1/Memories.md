@@ -237,3 +237,23 @@ they are carriers of information exchanged between the various components of the
  - transmission mode 
  ![[Pasted image 20251230125437.png]]
  ![[Pasted image 20251230125442.png]]
+
+
+bus :
+parallel 
+takes multiple lines fast but not good when its too close of a distance (interference )
+
+serial :
+transmits bit by bit
+
+PCI express 
+slower but better for security 
+
+
+the direction of communication : 
+uni directional: take one way like display , keyboard  
+bi directional : takes and returns  like the bus from the cpu to ram 
+: 
+sync: send the info in the same time like second 
+async : send the info not at the same time like you send now some then 4 sec later you send the rest , like when the sending to a device that is busy like the printer 
+

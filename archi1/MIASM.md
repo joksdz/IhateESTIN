@@ -54,7 +54,7 @@ EX 3:
 to make functional programs in  MIASM we need certain keywords which form the assembly language 
 ### A - switching instructions between the accumulator and the central memory : 
 #### 1 - storing : 
-MST (RANGEMNT) 
+MST (RANGEMNT) (Memory storage)
 effect : writes what on the accumulator into memory with the given address (the content of the accumulator is not changed) 
 format : long 
 type of addressing : Direct or indirect : 

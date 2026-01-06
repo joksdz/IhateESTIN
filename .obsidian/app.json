@@ -1,4 +1,7 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "tabSize": 4
 }
