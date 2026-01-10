@@ -256,4 +256,3 @@ bi directional : takes and returns  like the bus from the cpu to ram
 : 
 sync: send the info in the same time like second 
 async : send the info not at the same time like you send now some then 4 sec later you send the rest , like when the sending to a device that is busy like the printer 
-
